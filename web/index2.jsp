@@ -13,15 +13,15 @@
     </head>
     <body>
         <h1>Declaração e Atribuição de Variáveis</h1>
-        <%! 
-            String nome = "Wanderlei"; 
-            int  idade = 55;
+        <%!
+            String nome = "Wanderlei";
+            int idade = 55;
             float peso = 112.350f;
             float altura = 1.85f;
-            double imc = peso / Math.pow(altura,2);
+            double imc = peso / Math.pow(altura, 2);
         %>
         <div class="">
-            <h2> Dados Biométricos de <%=nome %> </h2>
+            <h2> Dados Biométricos de <%=nome%> </h2>
             <div style="display: flex ">
                 <div class="">Nome:</div>
                 <div class=""><%=nome%></div>
@@ -43,6 +43,10 @@
                 <div class=""><%=imc%></div>
             </div>       
         </div>
-        
+
+        <p>
+            <a href="index.jsp"> Voltar </a>
+        </p>
+ 
     </body>
 </html>

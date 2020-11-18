@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/11/2020, 12:49:06
+    Author     : sala308b
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 120px;
+   
+    
+    
+}
+.header-text{
+    padding: 10px;
+}
+.header,.footer {
+   background-color: blue;
+    color: white;
+}
+.header > h1, .header > p {
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    
+}
+.footer-text{
+    padding: 10px;
+}

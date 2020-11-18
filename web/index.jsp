@@ -1,35 +1,27 @@
-<%-- 
-    Document   : index
-    Created on : 17/11/2020, 11:42:00
-    Author     : sala308b
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Aprendendo Java para WEB</title>
-    </head>
-    <body>
+<jsp:include page="header.jsp" /> 
         <h1>JSP - Java Server Page </h1>
         <ul>
             <h2>O que aprenderemos </h2>
             
             <li>
                 <a href="index2.jsp"> 
-                    DeclaraÃ§Ã£o e atribuiÃ§Ã£o de variÃ¡veis
+                    Declaração e atribuição de variáveis
                 </a>
             </li>
-            <li>Estruturas condicionais</li>
-            <li>Estruturas de repetiÃ§Ã£o/LaÃ§os de repetiÃ§Ã£o</li>
-            <li>Vetores e Listas</li>
-            <li>Unidade de PersistÃªncia com JPA</li>
-            <li>CRUD bÃ¡sico</li>
-            <li>AplicaÃ§Ã£o exemplo: Restaurante Virtual </li>
+            <li>
+                <a href="index3.jsp">Estruturas de repetição/Laços de repetição</a>
+            </li>
+            <li>
+                <a href="index4.jsp">Estruturas condicionais</a>
+            </li>
+            <li>
+                <a href="index5.jsp"> Vetores e Listas</a>
+             </li>
+            <li>Unidade de Persistência com JPA</li>
+            <li>CRUD básico</li>
+            <li>Aplicação exemplo: Restaurante Virtual </li>
             
         </ul>
-      
         
-    </body>
-</html>
+<jsp:include page="footer.jsp" /> 
+        
