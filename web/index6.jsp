@@ -24,4 +24,5 @@
     </div>
 </div>
 
+<a href="index.jsp">Voltar</a>
 <jsp:include page="footer.jsp" />

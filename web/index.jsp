@@ -19,6 +19,9 @@
             <li>
                 <a href="index5.jsp"> Vetores e Listas</a>
              </li>
+             <li>
+                <a href="index6.jsp"> VCard com CSS</a>
+             </li>
             <li>Unidade de Persistência com JPA</li>
             <li>CRUD básico</li>
             <li>Aplicação exemplo: Restaurante Virtual </li>
