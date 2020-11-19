@@ -1,18 +1,6 @@
-<%-- 
-    Document   : index2
-    Created on : 17/11/2020, 12:15:03
-    Author     : sala308b
---%>
+<jsp:include page="header.jsp" />
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Declara√ß√£o e Atribui√ß√£o de Vari√°veis</h1>
+        <h1>DeclaraÁ„o e AtribuiÁ„o de Vari·veis</h1>
         <%!
             String nome = "Wanderlei";
             int idade = 55;
@@ -21,7 +9,7 @@
             double imc = peso / Math.pow(altura, 2);
         %>
         <div class="">
-            <h2> Dados Biom√©tricos de <%=nome%> </h2>
+            <h2> Dados BiomÈtricos de <%=nome%> </h2>
             <div style="display: flex ">
                 <div class="">Nome:</div>
                 <div class=""><%=nome%></div>
@@ -47,6 +35,5 @@
         <p>
             <a href="index.jsp"> Voltar </a>
         </p>
- 
-    </body>
-</html>
+        
+ <jsp:include page="footer.jsp" />

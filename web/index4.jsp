@@ -1,17 +1,4 @@
-<%-- 
-    Document   : index4
-    Created on : 18/11/2020, 10:26:12
-    Author     : sala308b
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Estruturas Condicionais</title>
-    </head>
-    <body>
         <h1>Estruturas Condicionais</h1>
 
         <%! int idade = 26;%>
@@ -19,7 +6,7 @@
         <%
 
             if (idade < 12) {
-                out.println("<h4>CrianÃ§a</h4>");
+                out.println("<h4>Criança</h4>");
             } else if (idade < 19) {
                 out.println("<h4>Adolescente</h4>");
             } else if (idade < 59) {
@@ -62,5 +49,4 @@
 
 
         <a href="index.jsp">Voltar</a>
-    </body>
-</html>
+

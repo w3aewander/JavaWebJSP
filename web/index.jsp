@@ -1,4 +1,6 @@
 <jsp:include page="header.jsp" /> 
+
+
         <h1>JSP - Java Server Page </h1>
         <ul>
             <h2>O que aprenderemos </h2>

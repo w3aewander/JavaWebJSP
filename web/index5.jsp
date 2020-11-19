@@ -1,33 +1,19 @@
-<%-- 
-    Document   : index5
-    Created on : 18/11/2020, 10:51:46
-    Author     : sala308b
---%>
 
-<%@page import="java.util.List"%>
+        <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Vetores e Listas</title>
-    </head>
-    <body>
-        <h1>Vetores</h1>
+<h1>Vetores</h1>
         <p>
-            Cria√ß√£o de vetores:  <br>
-            Para declarar uma vari√°vel do tipo Vetor usamos os colchetes. <br>
+            CriaÁ„o de vetores:  <br>
+            Para declarar uma vari·vel do tipo Vetor usamos os colchetes. <br>
             na forma:  <br>
 <pre>
 tipo[] variavel =  {elementos do vetor  }, onde elementos do 
-vetor  s√£o separados por v√≠rgula e est√£o entre chaves.
+vetor  s„o separados por vÌrgula e est„o entre chaves.
 
     Ex.:
        int[] numeros = {5,10,14,40};
 
-Podemos tamb√©m apenas declarar a vari√°vel e depois atribuir os valores na 
+Podemos tambÈm apenas declarar a vari·vel e depois atribuir os valores na 
 forma:
 
   tipo[] variavel = new tipo[n];
@@ -56,14 +42,14 @@ forma:
             char[] letra =  { 'a','b','c','d' };
             char[] ronaldo = { 'r','o','n','a','l','d','o' };
        
-            //Declara√ß√£o de matrizes
+            //DeclaraÁ„o de matrizes
             int[][] matriz = { {1,2,3}, {2,4,9}, { 3,7,12 }  };
             //int[][][] = matriz_tri = {  {  { },{} }, { { } }, { {  } } };
            
         %>
 <pre>
- Matriz: uma matriz √© um vetor com mais de uma dimens√£o, ou seja,
-         √© um vetor cujos elementos tamb√©m s√£o vetores.
+ Matriz: uma matriz È um vetor com mais de uma dimens„o, ou seja,
+         È um vetor cujos elementos tambÈm s„o vetores.
  Ex.:
 
     int[][] matriz = { 
@@ -74,15 +60,15 @@ forma:
 
 Obter os dados da matriz:
 
-     O elemeto  matriz[0][1]  √© o n√∫mero 2,  pois ele est√° na posi√ß√£o
-     "0" - que a primeiro vetor e na posi√ß√£o  "1" deste vetor.
+     O elemeto  matriz[0][1]  È o n˙mero 2,  pois ele est· na posiÁ„o
+     "0" - que a primeiro vetor e na posiÁ„o  "1" deste vetor.
 
         
 </pre>        
         
 <h2>Lista</h2>
 <pre>
-  Criamos listas em Java usando List e ArrayList, onde tamb√©m informamos o seu tipo, como
+  Criamos listas em Java usando List e ArrayList, onde tambÈm informamos o seu tipo, como
   no exemplo abaixo:
 
    List< tipo > lista = new ArrayList< tipo >();
@@ -94,7 +80,7 @@ Obter os dados da matriz:
  
       lista.add("Luiz");
       lista.add("Maria");
-      lista.add("Jo√£o");    
+      lista.add("Jo„o");    
    
 </pre>
          <hr />
@@ -105,8 +91,8 @@ Obter os dados da matriz:
          
          <%
              lista.add("Maria");
-             lista.add("Jo√£o");
-             lista.add("Jos√©");
+             lista.add("Jo„o");
+             lista.add("JosÈ");
              
              for(int i=0; i < lista.size(); i++  ){                 
                  out.println( "<div style='font-size: 1.2rem;color: red;'>" +  
@@ -119,5 +105,3 @@ Obter os dados da matriz:
          %>
          
         <a href="index.jsp">Voltar</a>
-    </body>
-</html>
