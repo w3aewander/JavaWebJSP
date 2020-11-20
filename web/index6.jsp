@@ -24,5 +24,13 @@
     </div>
 </div>
 
-<a href="index.jsp">Voltar</a>
+
+
+
+<div style="text-align: center; padding: 10px;">
+<a  onclick="showBoxCentered()" class="btn btn-primary" href="index.jsp">Voltar</a>
+<div onclick="showBoxCentered()" class="btn btn-primary" >Mini Curriculo</div>
+</div>
+
+
 <jsp:include page="footer.jsp" />

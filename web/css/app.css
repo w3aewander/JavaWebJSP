@@ -1,12 +1,8 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 18/11/2020, 12:49:06
-    Author     : sala308b
-*/
+
+:root{
+    --box-centered-width: 350px;
+    --box-centered-height: 250px;
+}
 
 body{
     margin: 0;
@@ -50,9 +46,9 @@ body{
 
 }
 .footer-text{
-    
+
     padding: 0;
-  
+
 }
 .card {
     display: flex;
@@ -76,7 +72,7 @@ body{
 .card-text{
     width: 100%;
     padding: 5px 2px;
-    
+
 }
 .card-text > div {
     width: 98%;
@@ -102,4 +98,80 @@ body{
     font-size: .9rem;
     bottom: 10px;
     left: -120px;
+}
+
+.btn {
+    display: inline-block;
+    width: 120px;
+    padding: 5px 6px; 
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: white;
+
+}
+
+.btn-primary:hover{
+    background-color: lightblue;
+    color: black;
+}
+.btn-primary:active{
+    background-color: gray;
+    border-color: lightgray;
+}
+
+#box-centered{
+    position: fixed;
+    width: var( --box-centered-width);
+    height: var( --box-centered-height);
+    top: calc( 50vh - var( --box-centered-height)/2  );
+    left: calc( 50vw - var( --box-centered-width)/2 );
+    display: none;
+    background-color: darkgray;
+}
+''
+#content-box-centered{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#content-box-centered .box-header{
+    height: 30px;
+}
+#content-box-centered .box-header,
+#content-box-centered .box-footer{
+    background-color: royalblue;
+}
+
+.box-title-bar{
+    display: flex; 
+    justify-content: space-between; 
+    height: 100%;
+}
+.box-title-bar-text{
+    text-align: center; 
+    height: 100%; 
+    padding: 5px;
+    color: white;
+}
+.box-title-bar-close-button{
+    text-align: center; 
+    height: 100%; 
+    padding: 5px;
+    color: white;
+}
+.box-title-bar-close-button > button {
+   background-color: red; 
+   color: white;
+   height: 100%; 
+   width: 35px; 
+   cursor: pointer;
 }

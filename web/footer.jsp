@@ -6,5 +6,7 @@
 
 
          </div><!-- fechando o container.. -->
+         
+         <script src="js/app.js"></script>
     </body>
 </html>

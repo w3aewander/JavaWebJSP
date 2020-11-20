@@ -28,5 +28,7 @@
             
         </ul>
         
+        <button class="btn btn-primary" onclick="showBoxCentered()">Mostar Caixa</button>
+        
 <jsp:include page="footer.jsp" /> 
         
