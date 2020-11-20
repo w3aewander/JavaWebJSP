@@ -21,16 +21,17 @@
         <div id="box-centered">
              <div id="content-box-centered">
                  <div class="box-header">
-                     <!--<div class="box-title-bar">
-                         <div class="box-title-bar-text">Minha Caixa Personalizada</div>
+                     <div class="box-title-bar">
+                         <div class="box-title-bar-text">
+                             Minha Caixa Personalizada
+                         </div>
                          <div class="box-title-bar-close-button" >
                              <button title="Fechar" onclick="showBoxCentered(false)">x</button>
                          </div>
-                     </div>-->
-                     Minha Caixa de Texto
+                     </div>
                  </div>
                  <div class="box-body">
-                     
+                     Conteúdo...
                  </div>
                  <div class="box-footer"> 
                      <div style="width: 100%; text-align: center; padding: 8px">
