@@ -1,4 +1,4 @@
-
+<jsp:include page="header.jsp" />
         <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 <h1>Vetores</h1>
@@ -105,3 +105,4 @@ Obter os dados da matriz:
          %>
          
         <a href="index.jsp">Voltar</a>
+<jsp:include page="footer.jsp" />

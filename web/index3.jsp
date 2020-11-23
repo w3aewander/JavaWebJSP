@@ -1,4 +1,4 @@
-
+<jsp:include page="header.jsp" />
             <%!
                 String[] nomes = {"Ronaldo", "Thiago", "Wanderlei"};
 
@@ -34,3 +34,4 @@
     
     <a href="index.jsp">Voltar</a>
 
+<jsp:include page="footer.jsp" />

@@ -25,6 +25,7 @@
             <li>Unidade de Persistência com JPA</li>
             <li>CRUD básico</li>
             <li>Aplicação exemplo: Restaurante Virtual </li>
+            <li><a href="index7.jsp">Página usando Bootstrap</a></li>
             
         </ul>
         

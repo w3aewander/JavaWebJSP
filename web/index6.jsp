@@ -1,8 +1,10 @@
 <jsp:include page="header.jsp" />
 
-<div class="card">
+<div class="card m-4">
     <div class="card-header">
-        <div class="carc-title"></div>
+        <div class="card-title">
+            Meu cartão virtual - VCARD
+        </div>
     </div>
     <div class="card-body">
         <div class="card-img">

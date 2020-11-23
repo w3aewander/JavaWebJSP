@@ -1,4 +1,4 @@
-
+<jsp:include page="header.jsp" />
         <h1>Estruturas Condicionais</h1>
 
         <%! int idade = 26;%>
@@ -50,3 +50,4 @@
 
         <a href="index.jsp">Voltar</a>
 
+<jsp:include page="footer.jsp" />
